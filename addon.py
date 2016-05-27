@@ -11,34 +11,22 @@ def main_menu():
 
     items = [
         {
-            # Buzz Feed Video
+            # AJ+ EN
             'label': plugin.get_string(30000),
-            'path': plugin.url_for('get_content', url='https://www.youtube.com/user/BuzzFeedVideo/videos'),
-            'thumbnail': 'https://yt3.ggpht.com/-iJJcDIkIjL0/AAAAAAAAAAI/AAAAAAAAAAA/Rf6VBJ2D-MA/s900-c-k-no/photo.jpg',
+            'path': plugin.url_for('get_content', url='https://www.youtube.com/channel/UCV3Nm3T-XAgVhKH9jT0ViRg/videos'),
+            'thumbnail': 'https://yt3.ggpht.com/-ZdkPN_aFeYY/AAAAAAAAAAI/AAAAAAAAAAA/Gf2XBEqFddI/s100-c-k-no-rj-c0xffffff/photo.jpg',
         },
         {
-            # Buzz Feed Food
+            # AJ+ ES
             'label': plugin.get_string(30001),
-            'path': plugin.url_for('get_content', url='https://www.youtube.com/user/BuzzFeedFood/videos'),
-            'thumbnail': 'https://pbs.twimg.com/profile_images/519943742258552832/wmQhQR3V.png',
+            'path': plugin.url_for('get_content', url='https://www.youtube.com/channel/UCS0lmlVIYVz2qeWlZ_ynIWg/videos'),
+            'thumbnail': 'https://yt3.ggpht.com/-dIY2yXt4g6E/AAAAAAAAAAI/AAAAAAAAAAA/HfkzxVUID2c/s100-c-k-no-rj-c0xffffff/photo.jpg',
         },
         {
-            # Buzz Feed Yellow
+            # AJ+ AR
             'label': plugin.get_string(30002),
-            'path': plugin.url_for('get_content', url='https://www.youtube.com/user/BuzzFeedYellow/videos'),
-            'thumbnail': 'https://yt3.ggpht.com/-qx3h-z3lc9w/AAAAAAAAAAI/AAAAAAAAAAA/QKFUBQtVG6A/s900-c-k-no/photo.jpg',
-        },
-        {
-            # Buzz Feed Violet
-            'label': plugin.get_string(30003),
-            'path': plugin.url_for('get_content', url='https://www.youtube.com/user/buzzfeedviolet/videos'),
-            'thumbnail': 'https://yt3.ggpht.com/--cdWOKrFOOE/AAAAAAAAAAI/AAAAAAAAAAA/wzHpOOWJAb4/s900-c-k-no/photo.jpg',
-        },
-        {
-            # Buzz Feed Blue
-            'label': plugin.get_string(30004),
-            'path': plugin.url_for('get_content', url='https://www.youtube.com/user/buzzfeedblue/videos'),
-            'thumbnail': 'https://yt3.ggpht.com/-GpCZ25vJ6CU/AAAAAAAAAAI/AAAAAAAAAAA/6qGF_ZTSSf0/s900-c-k-no/photo.jpg',
+            'path': plugin.url_for('get_content', url='https://www.youtube.com/channel/UC-4KnPMmZzwAzW7SbVATUZQ/videos'),
+            'thumbnail': 'https://yt3.ggpht.com/-Gp4qJ1iZHH4/AAAAAAAAAAI/AAAAAAAAAAA/EO7AVgoVh4Y/s100-c-k-no-rj-c0xffffff/photo.jpg',
         }
     ]
     
